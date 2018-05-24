@@ -55,11 +55,11 @@ public class Main {
             salida += "Parametro de asignatura no enviado \n";
         }
 
-        String valorCookie = request.cookie("matricula");
+        String valorCookie = request.headers("matricula");
         if(valorCookie != null){
-            salida += "Cookie matrícula "+valorCookie+", enviada :-D";
+            salida += "Header matrícula "+valorCookie+", enviada :-D";
         }else{
-            salida += "Cookie no enviada :S";
+            salida += "Header no enviada :S";
         }
 
         return salida;
