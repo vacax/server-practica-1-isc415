@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Opcion #2017 - Practica 1</title>
+</head>
+<body>
+    <p>
+      p1
+    </p>
+    <p>
+        p2
+    </p>
+    <p>
+        p3
+    </p>
+    <p>
+        p4
+        <img src="logo_pucmm.png" alt="logo pucmm"/>
+    </p>
+    <p>
+        p5
+        <img src="logo_pucmm.png" alt="logo pucmm"/>
+    </p>
+    <p>
+        p6
+        <img src="logo_pucmm.png" alt="logo pucmm"/>
+    </p>
+    <!-- No debe contar..-->
+    <img src="logo_pucmm.png" alt="logo pucmm"/>
+
+    <!-- Contando los formularios...-->
+    <form method="get" action="/formulario1">
+        <input type="text" name="nombre" />
+        <input type="number" name="matricula" />
+        <input type="tel" name="telefono" />
+        <input type="date" name="fecha" />
+        <input type="hidden" name="formulario_get" />
+        <input type="submit" name="enviar"/>
+    </form>
+
+    <form method="post" action="/formulario2">
+        <input type="text" name="nombre" />
+        <input type="number" name="matricula" />
+        <input type="tel" name="telefono" />
+        <input type="date" name="fecha" />
+        <input type="hidden" name="formulario_post_1" />
+        <input type="submit" name="enviar"/>
+    </form>
+
+    <form method="post" action="/formulario3">
+        <input type="hidden" name="formulario_post_2" />
+        <input type="submit" name="enviar"/>
+    </form>
+</body>
+</html>

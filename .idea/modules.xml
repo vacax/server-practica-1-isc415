@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server-practica-1-isc415.iml" filepath="$PROJECT_DIR$/.idea/modules/server-practica-1-isc415.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server-practica-1-isc415_main.iml" filepath="$PROJECT_DIR$/.idea/modules/server-practica-1-isc415_main.iml" group="server-practica-1-isc415" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server-practica-1-isc415_test.iml" filepath="$PROJECT_DIR$/.idea/modules/server-practica-1-isc415_test.iml" group="server-practica-1-isc415" />
+    </modules>
+  </component>
+</project>
