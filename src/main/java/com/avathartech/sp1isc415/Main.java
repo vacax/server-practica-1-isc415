@@ -61,7 +61,7 @@ public class Main {
         }else{
             salida += "Header no enviada :S";
         }
-
+        System.out.println("La salida: "+salida);
         return salida;
     }
 }
