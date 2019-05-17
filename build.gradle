@@ -1,8 +1,11 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '5.0.0'
+}
+
 group 'com.avathartech'
 version '1.0-SNAPSHOT'
-
-apply plugin: 'java'
-apply plugin: 'application'
 
 sourceCompatibility = 1.8
 
@@ -14,7 +17,6 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    compile 'com.sparkjava:spark-core:2.6.0'
-    // Pagina Error para Skarp: https://github.com/perwendel/spark-debug-tools
-    compile 'com.sparkjava:spark-debug-tools:0.5'
+    compile 'com.sparkjava:spark-core:2.8.0'
+    compile "org.slf4j:slf4j-simple:1.7.21"
 }
